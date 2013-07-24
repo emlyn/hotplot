@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-# install python-usb (pyUSB) 1.0 from sourceforge (not 0.4 that comes with ubuntu)
+# Uses python-usb (pyUSB) 1.0, not version 0.4 that comes with ubuntu by default.
+# You may need to install python-pymongo and python-dateutil (and MongoDB) as well.
 
 import sys
 import usb.core
